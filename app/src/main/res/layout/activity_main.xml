@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<de.dlyt.yanndroid.oneui.layout.SwitchBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/switch_bar_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:title="@string/app_name"
+    tools:context=".MainActivity">
+
+    <de.dlyt.yanndroid.oneui.widget.RoundLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="24dp"
+            android:text="@string/extra_dim_desc" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/settings_fragment"
+            android:name="com.sachin.app.extradim.MainActivity$SettingsFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior" />
+
+    </de.dlyt.yanndroid.oneui.widget.RoundLinearLayout>
+
+
+</de.dlyt.yanndroid.oneui.layout.SwitchBarLayout>

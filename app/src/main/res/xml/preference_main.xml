@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<de.dlyt.yanndroid.oneui.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <de.dlyt.yanndroid.oneui.preference.PreferenceCategory>
+        <SeekBarPreference
+            android:defaultValue="5"
+            android:title="Intensity"
+            app:key="intensity"
+            app:max="80"
+            app:min="10" />
+
+        <SwitchPreference
+            android:key="keep_on"
+            android:title="Keep on after restart" />
+    </de.dlyt.yanndroid.oneui.preference.PreferenceCategory>
+
+    <de.dlyt.yanndroid.oneui.preference.PreferenceCategory>
+        <Preference
+            android:summary="1.0"
+            android:title="Version" />
+
+        <Preference
+            android:summary="Sachin Kumar"
+            android:title="Developer" />
+
+    </de.dlyt.yanndroid.oneui.preference.PreferenceCategory>
+
+
+</de.dlyt.yanndroid.oneui.preference.PreferenceScreen>

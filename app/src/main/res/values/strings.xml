@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Extra Dim</string>
+    <string name="extra_dim_desc">Dim the screen beyond the minimum brightness setting for more comfortable viewing.</string>
+</resources>
